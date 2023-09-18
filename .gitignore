@@ -1,0 +1,42 @@
+# Ignore virtual environment folders (if using virtualenv or venv)
+venv/
+env/
+
+# Ignore system-specific files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.db
+*.log
+*.pot
+*.egg-info/
+celerybeat-schedule
+media/
+static/
+
+# Ignore editor-specific files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore environment variables file
+.env
+
+# Ignore secret and sensitive information (customize this as needed)
+*.secret_key
+*.settings
+*.config
+*.conf
+*.local
+*.db
+
+# Ignore generated and compiled files
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.swp
